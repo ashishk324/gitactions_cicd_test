@@ -1,4 +1,3 @@
-
 name : python pipeline
 on : [push]
 jobs:
@@ -18,6 +17,6 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: hello
-          path: ./
+          path: .
     
         
